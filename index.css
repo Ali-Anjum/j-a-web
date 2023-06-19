@@ -1,0 +1,212 @@
+html, body {
+    margin: 0;width: auto!important; overflow-x: hidden!important} 
+/*body*/
+p{    margin:2vw;
+    padding:0;}
+/*Header*/
+header{
+    min-width: 100%;
+    background-color: #000000;
+}
+
+.header-div-1{
+    display: flex;
+}
+header .header-div-1 .logo-div{
+ width: 20vw;
+ border-radius: 1vw;
+}
+header .header-div-1 .header-text{
+ color: #fff;
+ font-size: 5vw;
+}
+/*Header Finish*/
+/*section-1(h1 text)*/
+.section-1{
+    text-align: center;
+}
+.section-1 .section-1-div-1{
+    font-size: 8vw;
+    font-weight:300;
+
+}
+/* section-1 finish*/
+/* section-2(text)*/
+.section-2{
+    text-align: center;
+}
+/* section-2 finish*/
+/* section-3(yt video and its info)*/
+.section-3{
+    font-size: 3vw;
+    align-items: center;
+    text-align: center;
+
+}
+.p-5{
+    font-size: 2vw;
+}
+.sp-div{
+    font-size: 4vw;
+    font-weight: 70;
+}
+.section-3 .section-3-iframe{
+    min-width:90%;
+    min-height:50vw;
+}
+/* section-3 finish*/
+/* section-4(buy)*/
+.section-4{
+    text-align: center;
+
+}
+.section-4 .section-4-button{
+    background-color: #C7963F;
+    font-size: 4vw;
+    font-weight: bold;
+    border-radius: 2vw;
+}
+/* section-4 finish*/
+/* section-5(modules)*/
+.section-5{
+    display: none;
+    text-align: center;
+
+}
+.section-5 .modules-list{
+    text-align: left;
+    color: rgb(0, 50, 50);
+}
+/* section-5 finish*/
+/* section-6(photos)*/
+.section-6{
+    display: none;
+    align-items: center;
+}
+.section-6 .section-6-div-1{
+    display:inline-block;
+}
+/* section-6 finish*/
+/* section-7(text)*/
+.section-7{  display: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* section-7 finish*/
+/* section-8(text)*/
+.section-8{
+    text-align: center;
+}
+.section-8 .section-8-div-1{
+    font-size: 7vw;
+    font-weight: bolder;
+}
+.section-8 .section-8-div-2{
+    font-weight: 300;
+    font-size: 3vw;
+}
+.section-8 .section-8-div-3{
+    color: #00B5EE;
+    text-align: center;
+}
+/* section-8 finish*/
+/* section-9*/
+
+.section-9{
+    background-color: #000000;
+    min-height: 40vw;
+    color: #fff;
+    text-align: center;
+    border-radius: 3vw;
+    margin-left:2vw;
+    margin-right:2vw;
+    align-items: center;
+}
+.section-9 .section-9-p-1{
+    margin-top: 6vw;
+    font-size: 5vw;
+    font-weight: bold;
+
+    color: rgb(149, 149, 149);
+}
+.section-9  .section-9-button-1{
+    color: #000000;
+    background-color: #C7963F;
+    border-radius: 3vw;
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 4vw;
+    min-height: 7vw;
+
+}
+.section-9 .section-9-p-2{
+ font-weight: bolder;
+}
+.section-10{
+    text-align: center;
+}
+.section-10-div-1{
+    font-weight: bold;
+    font-size: 5vw;
+    
+}
+.section-10-p-1{
+    font-size: 3vw;
+}
+.section-11-p-1{
+    color: #9c9c9c;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 2vw;
+}
+.section-11-p-2{
+    font-size: 5vw;
+    font-weight: bolder;
+}
+.span-1{
+    color: #00ff11;
+}
+
+.footer{
+    border-radius: 0;
+    margin: 0;
+}
+
+.footer-p-1{
+    font-size: 6vw;
+    color: #9c9c9c;
+    font-weight: bolder;
+}
+.button-1{
+    font-size: 4vw;
+    background-color: #C7963F;
+    border-radius: 3vw;
+    color: #000000;
+    min-width: 7vw;
+}
+.span-2{
+    color: rgb(248, 255, 246);
+    font-weight: bolder;
+}
+.p-2{
+    color: #fff;
+    font-size: 4vw;
+
+}
+@media  only screen and (min-width: 950px)  {
+    header .header-div-1 .logo-div{
+        width: 15vw;
+    
+}
+header .header-div-1 .header-text{
+    color: #fff;
+    font-size: 3vw;
+}
+.section-1 .section-1-div-1{
+    font-size: 6vw;
+    
+}
+}
+
+button{
+    cursor: pointer;
+}
